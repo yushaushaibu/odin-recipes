@@ -67,3 +67,8 @@ a:hover {
     background-color: #00e676;
     color: #000;
 }
+
+.content > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
