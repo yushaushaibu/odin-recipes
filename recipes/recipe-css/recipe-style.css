@@ -9,7 +9,7 @@
 
 body {
     font-family:'Raleway', sans-serif;
-    background-color: #f7f5f5;
+    background-color: #c9cdcd;
 }
 
 section {
@@ -115,7 +115,25 @@ header h1 {
     padding: 40px;
 }
 
-footer {
-    height: 120px;
-    background: #fff;
+ footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background: #000;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 35px;
+    color: #fff;
+}
+
+
+
+footer a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    color: #00e676;
 }
