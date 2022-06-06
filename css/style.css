@@ -41,6 +41,10 @@ body {
     height: 90%;
 }
 
+.text-primary {
+    color: #00e676;
+}
+
 h1 {
     font-size: 7em;
     letter-spacing: 2rem;
